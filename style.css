@@ -60,3 +60,11 @@ body {
   color: #7f8c8d;
   transition: 0.3s;
 }
+
+.carousel .nav-links .nav-link:hover {
+  color: #1c1e1f;
+}
+.carousel .nav-links .nav-link.active {
+  color: black;
+  pointer-events: none;
+}
